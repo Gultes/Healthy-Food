@@ -39,7 +39,7 @@ $ npm install or yarn
 $ yarn dev
 ```
 
-<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/vilelagit" target="_blank">By Gustavo Estevam</a> ✌</h4>
+<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/Gultes" target="_blank">By Gustavo Estevam</a> ✌</h4>
 
 [nodejs]: https://nodejs.org/
 [nextjs]: https://nextjs.org/
