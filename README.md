@@ -31,6 +31,7 @@ $ yarn add react-dom
 $ yarn add axios
 $ yarn add react-bootstrap
 $ yarn add react-icons
+$ yarn add --dev @types/node (To Be Able to USe TypeScript)
 
 # Start Server
 $ yarn dev
