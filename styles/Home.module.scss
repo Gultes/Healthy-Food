@@ -1,0 +1,254 @@
+/* Introduction */
+
+.introduction {
+  background-image: url("/images/Illustration.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: scroll;
+
+  &_header {
+    padding: 2rem 8rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_search {
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-bottom: 15rem;
+  }
+
+  &_button {
+    background-color: #ffffff;
+    color: #badc58;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+  }
+}
+
+/* Recipes */
+
+.recipes {
+  background-color: #fafafc;
+  padding: 2rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &_card {
+    margin: 2rem 2rem;
+    box-shadow: 2px 10px 20px #00000023;
+    display: flex;
+    justify-content: space-evenly;
+
+    &_body {
+      background: cover;
+    }
+
+    &_title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #1d164d;
+      margin: 1rem;
+    }
+
+    &_button {
+      color: #ffffff;
+      white-space: nowrap;
+    }
+  }
+}
+
+/* Services */
+
+.services {
+  background-image: url("/images/bloco_services.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment: scroll;
+
+  &_container {
+    padding: 6rem 8rem 6rem 45rem;
+  }
+
+  &_paragraph {
+    padding-bottom: 1rem;
+  }
+
+  &_button {
+    color: #ffffff;
+    margin: 0;
+  }
+}
+
+/* Blog */
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 8rem 4rem 8rem;
+  background-color: #fafafc;
+
+  &_group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  &_card {
+    box-shadow: 2px 10px 20px #00000023;
+    width: 100%;
+    margin-left: 1rem;
+
+    &_image {
+      width: 100%;
+    }
+
+    &_body small {
+      color: #9a93a8;
+    }
+
+    &_title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #1d164d;
+      margin: 1rem;
+    }
+
+    &_autor {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0 1rem 0;
+    }
+
+    &_autor img {
+      border-radius: 100%;
+      width: 15%;
+      margin-left: 1rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+/* Membership */
+
+.membership {
+  background-image: url("/images/bloco_final_image.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: scroll;
+
+  &_search {
+    padding: 15rem 0 15rem 8rem;
+
+    &_button {
+      color: #ffffff;
+      padding: 1rem 2rem;
+    }
+  }
+}
+
+@media (max-width: 1219px) {
+  .introduction {
+    &_header {
+      background-image: linear-gradient(to right, #1d164d, #494875);
+      border: 0px solid;
+      border-image-source: linear-gradient(
+        to bottom right,
+        #fff1ea,
+        #1d164db4,
+        #6258a3b4,
+        #402eb6b4
+      );
+    }
+
+    &_button {
+      color: #1d164d;
+    }
+
+    &_search {
+      background-image: linear-gradient(to right, #ffffff, #ffffff7a);
+    }
+  }
+
+  .services {
+    &_container {
+      background-image: linear-gradient(to left, #ffffff, #ffffff00);
+      padding: 6rem 4rem 6rem 30rem;
+      text-align: end;
+    }
+  }
+
+  .membership {
+    &_search {
+      background-image: linear-gradient(to right, #ffffff, #ffffff33);
+    }
+  }
+
+  .recipes {
+    &_card {
+      &_button {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 869px) {
+  .main {
+    width: 1100px;
+
+    h1 {
+      font-size: 60px;
+    }
+
+    a,
+    input,
+    p,
+    button,
+    div {
+      font-size: 25px;
+    }
+  }
+  .introduction {
+    &_header {
+      display: flex;
+      flex-direction: column;
+
+      nav {
+        margin-top: 4rem;
+      }
+    }
+  }
+
+  .services {
+    &_container {
+      background-image: linear-gradient(to left, #ffffff, #ffffff00);
+      padding: 6rem 6rem 6rem 30rem;
+      text-align: end;
+    }
+  }
+
+  .blog {
+    &_group {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    &_card {
+      margin-bottom: 2rem;
+    }
+  }
+}
