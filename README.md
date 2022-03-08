@@ -32,9 +32,6 @@ $ yarn add axios
 $ yarn add react-bootstrap
 $ yarn add react-icons
 
-# Install dependencies
-$ npm install or yarn
-
 # Start Server
 $ yarn dev
 ```
