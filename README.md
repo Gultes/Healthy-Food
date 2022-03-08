@@ -8,8 +8,8 @@ This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
-- [nextjs]: https://nextjs.org/
-- [axios]: https://axios-http.com/
+- [nextjs](https://nextjs.org/)
+- [axios](https://axios-http.com/)
 
 ## :Local Implementation
 
