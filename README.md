@@ -11,7 +11,7 @@ This project was developed with the following technologies:
 - [Nextjs](https://nextjs.org/)
 - [Axios](https://axios-http.com/)
 
-## :Local Implementation
+## Local Implementation
 
 ```bash
 # Clone this repository
@@ -24,7 +24,7 @@ $ cd Healthy-Food
 #### Run The follow comands in order to add the libraries and run the server:
 
 ```bash
-# yarn install
+$ yarn install
 $ yarn add next
 $ yarn add react
 $ yarn add react-dom
