@@ -10,6 +10,7 @@ This project was developed with the following technologies:
 - [React](https://reactjs.org)
 - [Nextjs](https://nextjs.org/)
 - [Axios](https://axios-http.com/)
+- [viacep](https://viacep.com.br/) - API CONSUMIDA
 
 ## Local Implementation
 
@@ -38,9 +39,3 @@ $ yarn dev
 ```
 
 <h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/Gultes" target="_blank">By Gustavo Estevam</a> ✌</h4>
-
-[nodejs]: https://nodejs.org/
-[nextjs]: https://nextjs.org/
-[viacep]: https://viacep.com.br/ - API CONSUMIDA
-[vc]: https://code.visualstudio.com/
-[axios]: https://axios-http.com/
